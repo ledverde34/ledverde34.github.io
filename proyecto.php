@@ -1,0 +1,33 @@
+
+<?php 
+    include "encabezado.php";
+?>
+<div class="container">
+    <h1>PROYECTO DE LUZ VERDE</h1>
+      <p>
+        <h3>Objetivo:</h3> Dar a conocer los efectos del mal desecho de dispositivos electrónicos y el cómo estos afectan al medio ambiente, dando soluciones de como evitar su desperdicio, re utilizarlos para darles una segunda vida y <br>
+        <a href="daño1.jpg" id = "img1"><img src="daño1.jpg" alt="img1" ></a>
+        <h3>Implementación:</h3><br>
+        Reutilizar las piezas de varios aparatos electrónicos, podemos usar varios componentes para crear cosas nuevas, ya sean resistencias, leds, potenciómetros, botones, circuitos integrados, generadores u otros componentes, de esta forma estamos reciclando y alargando la vida útil de los componentes, sin afectar al medio ambiente en el proceso.<br>
+        <br>
+        Otra cosa que podemos hacer es ir a varios centros de reciclaje o tiendas de electrónica, un centro de reciclaje aquí en Querétaro es Recicla Electrónicos México (REMSA).
+        <a href="centro.jpeg"><img src="centro.jpg" alt=""></a>
+        <a href="https://share.google/gdQZmGbQttuDSmL9a">https://share.google/gdQZmGbQttuDSmL9a</a><br>
+        <br>
+        Nosotros como equipo, reciclamos varios juguetes y sacamos varias resistencias, leds y placas para crear unas lámparas decorativas
+        <br><br>
+        <h6>AQUÍ ALGUNOS EJEMPLOS DE NUESTRO TRABAJO:</h6>
+        <br>
+        <a href="lampara.jpg"><img src="lampara.jpg" alt=""></a>
+        Cómo se vé en persona
+        <a href="luz.jpg"><img src="luz.jpg" alt=""></a>
+        Ejemplo de como se vé en acción.
+        <a href="batman.jpg"><img src="batman.jpg" alt=""></a>
+        Ejemplo con otro recubrimiento.
+        <br><br><br><br><br><br>
+
+
+      </p>
+    </div>
+</body>
+</html>
