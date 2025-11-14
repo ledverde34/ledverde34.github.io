@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NUESTRO PROYECTO</title>
+    <link rel="stylesheet" href="Style.css">
+    <style>
+        /* Estilo rápido para el tríptico */
+        .triptico-panels{display:flex;gap:12px;flex-wrap:wrap;margin-top:20px}
+        .panel-tripto{background:#fff;padding:18px;border-radius:10px;box-shadow:0 6px 18px rgba(0,0,0,0.08);flex:1 1 30%;min-width:260px}
+        .panel-tripto h3{color:#01850c;margin-top:0}
+        .panel-tripto img{width:100%;border-radius:8px;margin-top:10px}
+        .container{padding-top:40px}
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo">LED VERDE</div>
+    <nav>
+        <div class="menu-buttons">
+            <button class="menu-btn" onclick="location.href='index.html'">INICIO</button>
+            <button class="menu-btn" onclick="location.href='proyecto.html'">PROYECTO</button>
+            <button class="menu-btn" onclick="location.href='juego.html'">JUEGO</button>
+        </div>
+    </nav>
+</header>
+
+<footer>
+    © 2025 LED VERDE
+</footer>
+
+<div class="container">
+    <h1>PROYECTO DE LUZ VERDE</h1>
+
+    <div class="triptico-panels">
+        <!-- Panel 1 -->
+        <article class="panel-tripto">
+            <h3>Objetivo</h3>
+            <p>Dar a conocer los efectos del mal desecho de dispositivos electrónicos y cómo estos afectan al medio ambiente, presentando soluciones para reutilizarlos y darles una segunda vida.</p>
+            <a href="daño1.jpg" id="img1"><img src="daño1.jpg" alt="img1"></a>
+        </article>
+
+        <!-- Panel 2 -->
+        <article class="panel-tripto">
+            <h3>Implementación</h3>
+            <p>Reutilizar piezas de aparatos electrónicos para crear nuevos proyectos: resistencias, leds, potenciómetros, botones, circuitos integrados y generadores, alargando la vida útil de los materiales sin afectar al medio ambiente.</p>
+            <p>También podemos llevar aparatos a centros de reciclaje, como REMSA en Querétaro.</p>
+            <a href="centro.jpg"><img src="centro.jpg" alt="centro"></a>
+            <a href="https://share.google/gdQZmGbQttuDSmL9a">https://share.google/gdQZmGbQttuDSmL9a</a>
+        </article>
+
+        <!-- Panel 3 -->
+        <article class="panel-tripto">
+            <h3>Resultados</h3>
+            <p>Reciclamos juguetes y reutilizamos resistencias, leds y placas para crear lámparas decorativas. Estos son algunos ejemplos:</p>
+            <a href="lampara.jpg"><img src="lampara.jpg" alt="lampara"></a>
+            <p>Cómo se ve en persona</p>
+            <a href="luz.jpg"><img src="luz.jpg" alt="luz"></a>
+            <p>Ejemplo de cómo se ve en acción</p>
+            <a href="batman.jpg"><img src="batman.jpg" alt="batman"></a>
+            <p>Ejemplo con otro recubrimiento</p>
+            <p><h1>Ejemplos en video:</h1></p>
+            <video width="640" height="360" controls>
+            <source src="lampara.mp4" type="video/mp4">
+            <br>
+            </video>
+            <br>
+            <video width="640" height="360" controls>
+            <source src="arbol.mp4" type="video/mp4">
+            </video>
+            <br>
+            <video width="640" height="360" controls>
+            <source src="taladro.mp4" type="video/mp4">
+            </video>
+
+        </article>
+    </div>
+</div>
+<br><br><br>
+</body>
+</html>
