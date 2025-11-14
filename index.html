@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INFORMACIÓN - TRÍPTICO</title>
+    <link rel="stylesheet" href="Style.css">
+    <style>
+        .triptico-panels{
+            display:flex;
+            gap:12px;
+            flex-wrap:wrap;
+            margin-top:20px
+        }
+        .panel-tripto{
+            background:#fff;
+            padding:18px;
+            border-radius:10px;
+            box-shadow:0 6px 18px rgba(0,0,0,0.08);
+            flex:1 1 30%;
+            min-width:260px
+        }
+        .panel-tripto h2{
+            color:#01850c;
+            margin-top:0
+        }
+        .ubicaciones iframe{
+            height:180px;
+            margin-top:8px
+        }
+        .container{padding-top:40px}
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">LED VERDE</div>
+        <nav>
+            <div class="menu-buttons">
+                <button class="menu-btn" onclick="location.href='index.html'">INICIO</button>
+                <button class="menu-btn" onclick="location.href='proyecto.html'">PROYECTO</button>
+                <button class="menu-btn" onclick="location.href='juego.html'">JUEGO</button>
+            </div>
+        </nav>
+    </header>
+
+    <footer>
+        © 2025 LED VERDE
+    </footer>
+
+    <div class="container">
+        <h1>Concientización sobre Basura Electrónica</h1>
+        
+
+        <div class="triptico-panels">
+    <article class="panel-tripto">
+        <h2>Objetivo / Filosofía / Justificación</h2>
+        <p><strong>Objetivo:</strong> Explicar el impacto de la basura electrónica y cómo desecharla correctamente.</p>
+        <p><strong>Filosofía ITQ:</strong> Reducir residuos y reutilizar componentes en proyectos estudiantiles.</p>
+        <p><strong>Justificación:</strong> El mundo genera millones de toneladas de e-waste; reciclar evita daños a la salud.</p>
+        <img src="reciclaje.png" alt="Reciclaje" style="width:100%;border-radius:8px;margin-top:10px">
+    </article>
+
+    <article class="panel-tripto">
+        <h2>¿Qué es la basura electrónica?</h2>
+        <p>Son dispositivos que ya no sirven y contienen plásticos y metales valiosos que pueden reciclarse.</p>
+        <p>También incluyen sustancias tóxicas como plomo, mercurio y cadmio.</p>
+        <p>Un mal manejo contamina agua, suelo y aire.</p>
+        <img src="basuraelectrónica.jpg" alt="Basura Electrónica" style="width:100%;border-radius:8px;margin-top:10px">
+    </article>
+
+    <article class="panel-tripto">
+        <h2>Implementación y Evaluación</h2>
+        <p>Reutiliza piezas para proyectos y lleva tus aparatos a centros de reciclaje.</p>
+        <p>El reciclaje reduce contaminación y fomenta innovación responsable.</p>
+        <p>Cuidar el entorno permite desarrollar mejores ideas y tecnología.</p>
+        <img src="basura2.jpeg" alt="Reutilización" style="width:100%;border-radius:8px;margin-top:10px">
+    </article>
+</div>
+
+        <!-- Ubicaciones: mantengo las iframes que pegaste, reducidas para que entren -->
+        <section class="panel-tripto ubicaciones" style="margin-top:18px;">
+            <h2>Centros de Reciclaje en Querétaro</h2>
+
+            <p><strong>REMSA Querétaro</strong></p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.871907259497!2d-100.4503364!3d20.8316328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d4a90044a97587%3A0xfd1d715762d4efdf!2sREMSA%20QUER%C3%89TARO!5e0!3m2!1ses!2smx!4v1700XXXXXXX" width="100%" height="180" style="border:0;border-radius:8px;" allowfullscreen loading="lazy"></iframe>
+
+            <p><strong>Recolector de Pilas – Ignacio Zaragoza</strong></p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3178.0261850705446!2d-100.3999483!3d20.5856078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d34500527dc6c3%3A0xd33547f062c34ef2!2sRecolector%20de%20pilas%20Calle%20Ignacio%20Zaragoza%20150%2C%20Centro%2C%2076000%20Santiago%20de%20Quer%C3%A9taro%2C%20Qro.!5e0!3m2!1ses!2smx!4v1700000000000" width="100%" height="180" style="border:0;border-radius:8px;" allowfullscreen loading="lazy"></iframe>
+
+            <p><strong>Green Recycling – Prol. Bernardo Quintana</strong></p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3722.448739823084!2d-100.4179732!3d20.6216767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d35af25fdc40b5%3A0xede3295c072fc341!2sGreen%20Recycling%20Prol.%20Bernardo%20Quintana%2049%2C%20Las%20Am%C3%A9ricas%2C%2076121%20Santiago%20de%20Quer%C3%A9taro%2C%20Qro.!5e0!3m2!1ses!2smx!4v1700000000000" width="100%" height="180" style="border:0;border-radius:8px;" allowfullscreen loading="lazy"></iframe>
+
+            <p><strong>Alcamare Qro – 5 de Febrero</strong></p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3765.789043960473!2d-100.4168805!3d20.6097824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d35abf85e67be9%3A0x135649ce813edb4a!2sAlcamare%20Qro%2C%20Av.%205%20de%20Febrero%201410%2C%2076159%20Santiago%20de%20Quer%C3%A9taro%2C%20Qro.!5e0!3m2!1ses!2smx!4v1700000000000" width="100%" height="180" style="border:0;border-radius:8px;" allowfullscreen loading="lazy"></iframe>
+
+            <p><strong>Centro de Reciclaje – Centro Sur</strong></p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3742.2834143879023!2d-100.3616053!3d20.5587557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d345f6d190c491%3A0xb6f42cc4993a87e8!2sCentro%20de%20Reciclaje%20de%20Desperdicios%20El%C3%A9ctricos%20y%20El%C3%A9ltr%C3%B3nicos%2C%20Centro%20Sur%2C%2076090%20Santiago%20de%20Quer%C3%A9taro%2C%20Qro.!5e0!3m2!1ses!2smx!4v1700000000000" width="100%" height="180" style="border:0;border-radius:8px;" allowfullscreen loading="lazy"></iframe>
+        </section>
+
+    </div>
+
+</body>
+</html>
